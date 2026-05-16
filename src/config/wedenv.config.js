@@ -5,7 +5,7 @@ class WedEnv {
   static REQUEST_LOGS_COLLECTION_NAME = process.env.REQUEST_LOGS_COLLECTION_NAME || "req_logs";
 
   // App
-  static WED_COUNT_DOWN_T0_DATE = process.env.WED_COUNT_DOWN_T0_DATE || "2026-01-04"
+  static WED_COUNT_DOWN_T0_DATE = process.env.WED_COUNT_DOWN_T0_DATE || "2026-06-14"
 
   // Rate limit
   static RATE_LIMIT_WINDOW = 1 * 60 * 1000

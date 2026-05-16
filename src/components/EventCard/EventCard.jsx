@@ -42,7 +42,7 @@ function EventCard({
 
         <div className="pt-5 px-4">
           <p>{restaurant}</p>
-          <p className="font-bold text-4xl font-serif pt-4 pb-2">
+          <p className="font-bold text-4xl pt-4 pb-2">
             {restaurantName}
           </p>
           <p className={`font-bold pt-2 pb-2 ${quicksand.className}`}>

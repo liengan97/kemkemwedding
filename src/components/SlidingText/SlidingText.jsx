@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { courgette } from "@/utils/font.util";
 
-const dates = ["Chủ nhật, 4", "Chủ nhật, 4"];
+const dates = ["Chủ nhật, 14", "Chủ nhật, 14"];
 
 const SlidingText = () => {
   useEffect(() => {
@@ -68,7 +68,7 @@ const SlidingText = () => {
             </span>
           ))}
         </div>
-        <span className={`text-[#425937]  fw-600`}>Tháng 1 Năm 2026</span>
+        <span className={`text-[#425937]  fw-600`}>Tháng 6 Năm 2026</span>
       </div>
     </div>
   );

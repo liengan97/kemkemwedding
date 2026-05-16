@@ -9,29 +9,29 @@ function WeddingEventsContainer() {
     <div className="md:w-3/5 mx-auto py-10 relative">
       <div className="flex items-center flex-col pb-5 px-5 text-center event">
         <h2 className="py-5 text-xl lg:text-3xl pb-5 text-[#425937] font-bold font-serif">
-          LỄ BÁO HỶ
+          LỄ THÀNH HÔN
         </h2>
         <p className={`text-[#425937] ${quicksand.className}`}>
-          Hân hạnh mời bạn đến dự lễ báo hỷ của chúng tôi!
+          Hân hạnh mời bạn đến dự lễ thành hôn của chúng tôi!
         </p>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-1">
         <EventCard
           photoUrl={PEvents.May24}
-          title="Hoàng Tiến & Kim Thoa"
-          restaurant="TRUNG TÂM HỘI NGHỊ & TIỆC CƯỚI"
-          restaurantName="VƯỜN CAU"
-          restaurantHall="Sảnh PANSY"
-          location="360 Phan Văn Trị, Phường Bình Lợi Trung, Thành phố Hồ Chí Minh"
-          time="11:00"
-          time2="12:00"
+          title="Nam Tiến & Ngọc Hân"
+          restaurant=""
+          restaurantName="CẢNG DU THUYỀN MỸ THO"
+          restaurantHall="Sảnh SUNNY - Nhỏ 1"
+          location="Số 1, Hoàng Sa, Phường Đạo Thạnh, Đồng Tháp"
+          time="10:30"
+          time2="11:30"
           dayText="Chủ Nhật"
-          dayMonth="04/01"
+          dayMonth="14/06"
           year="2026"
-          phoneNumber="tel:(+84)357169101"
-          alternativeDay="Nhằm ngày 16 tháng 11 năm Ất Tỵ"
-          googleMapLocation="https://maps.app.goo.gl/uoNAj5YZiuLab1bV6"
+          phoneNumber="tel:(+84)949934595"
+          alternativeDay="Nhằm ngày 29 tháng 04 năm Bính Ngọ"
+          googleMapLocation="https://maps.app.goo.gl/VjyJTjEbq6Bgea5J8"
         />
       </div>
     </div>

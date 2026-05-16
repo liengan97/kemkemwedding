@@ -33,7 +33,7 @@ function ImageFirstSlider({ photos = [] }) {
               className={`text-[#425937] text-lg md:text-4xl lg:text-5xl text-center 
                           ${fzPhotograph.className} ${styles.title} ${styles.titleStroke}`}
             >
-              Hoàng Tiến & Kim Thoa
+              Nam Tiến & Ngọc Hân
             </h1>
           </div>
 
@@ -61,7 +61,7 @@ function ImageFirstSlider({ photos = [] }) {
                 <p
                   className={`text-3xl md:text-5xl lg:text-5xl font-extrabold text-[#425937] text-center font-serif ${styles.titleStroke}`}
                 >
-                  04 . 01 . 2026
+                  14 . 06 . 2026
                 </p>
                 <div className="w-full border-t-2 border-[#425937]"></div>
 

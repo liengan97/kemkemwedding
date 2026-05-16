@@ -12,14 +12,14 @@ function IntroductionContainer() {
       <div className="relative grid sm:grid-cols-1 md:grid-cols-2 gap-4 md:gap-2 lg:gap-2 pb-10">
         <div className="md:pr-3 md:rounded-lg font-light rounded-md h-150">
           <IntroductionCard
-            name="PHẠM HOÀNG TIẾN"
-            birthday="Thứ Nam"
+            name="NGUYỄN NAM TIẾN"
+            birthday="Út Nam"
             photoUrl={PIntro.Groom}
           />
         </div>
         <div className="md:pl-3 rounded-md font-light h-150">
           <IntroductionCard
-            name="NGUYỄN THỊ KIM THOA"
+            name="LÊ HUỲNH NGỌC HÂN"
             birthday="Út Nữ"
             photoUrl={PIntro.Bride}
           />

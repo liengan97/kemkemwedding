@@ -29,7 +29,7 @@ function WishContainer() {
         const response = await axios.get("/api/wishes");
         setWishes(response.data);
       } catch (err) {
-        console.log(error);
+        console.log(err);
       }
     };
     fetchWishes();
