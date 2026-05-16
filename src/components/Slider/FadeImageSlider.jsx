@@ -41,7 +41,7 @@ function FadeImageSlider({ photos = [] }) {
                 tôi.
               </p>
               <p className="text-sm md:text-xl pt-4 lg:text-2xl font-light text-white text-center">
-                Trân thành cảm ơn!
+                Chân thành cảm ơn!
               </p>
             </div>
           </div>
