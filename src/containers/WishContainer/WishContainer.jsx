@@ -94,11 +94,12 @@ function WishContainer() {
               <TextCenter className="h-[80px]">
                 <div
                   className={`py-5 text-white text-3xl font-light ${fzPhotograph.className}`}
+                  style={{ textShadow: "2px 2px 4px #36608a" }}
                 >
                   ✨ Lời chúc phúc ✨
                 </div>
               </TextCenter>
-              <div className="absolute top-[80px] bottom-20 left-0 right-0 overflow-y-scroll">
+              <div className="absolute top-[80px] bottom-20 left-0 right-0 overflow-y-scroll" style={{ textShadow: "1px 1px 1px #36608a" }}>
                 <MasonryWishGrid wishes={wishes} />
               </div>
             </div>
