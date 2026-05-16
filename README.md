@@ -12,12 +12,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Deploy on Vercel
 
-### Staging (login is required)
-
-- **Host**: https://thoa-wedding-dev.vercel.app
-- **Storage**: Firestore
 
 ### Production
 
-- **Host**: https://tien&thoa.vercel.app
+- **Host**: https://tienhanwedding.vercel.app/
 - **Storage**: Firestore
