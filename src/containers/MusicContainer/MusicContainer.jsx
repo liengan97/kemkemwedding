@@ -18,15 +18,15 @@ function MusicContainer() {
       <div className="flex justify-center items-center cursor-pointer">
         {!isPlaying && (
           <div onClick={() => setPlaying(true)}>
-            <FontAwesomeIcon className="text-[#425937]" icon={faMusic} />
+            <FontAwesomeIcon className="text-[#126DA6]" icon={faMusic} />
             <span
-              className={`text-[#425937] pl-1 px-1 text-sm ${courgette.className}`}
+              className={`text-[#126DA6] pl-1 px-1 text-sm ${courgette.className}`}
             >
               {" "}
               Play
             </span>
             <FontAwesomeIcon
-              className={`text-[#425937] ${styles.titleStroke}`}
+              className={`text-[#126DA6] ${styles.titleStroke}`}
               icon={faDrum}
             />
           </div>
@@ -34,15 +34,15 @@ function MusicContainer() {
         {isPlaying && (
           <div className="animate-bounce" onClick={() => setPlaying(false)}>
             <FontAwesomeIcon
-              className={`text-[#425937] ${styles.titleStroke}`}
+              className={`text-[#126DA6] ${styles.titleStroke}`}
               icon={faDrum}
             />
             <FontAwesomeIcon
-              className={`text-[#425937] px-1 ${styles.titleStroke}`}
+              className={`text-[#126DA6] px-1 ${styles.titleStroke}`}
               icon={faMusic}
             />
             <FontAwesomeIcon
-              className={`text-[#425937] ${styles.titleStroke}`}
+              className={`text-[#126DA6] ${styles.titleStroke}`}
               icon={faDrum}
             />
           </div>

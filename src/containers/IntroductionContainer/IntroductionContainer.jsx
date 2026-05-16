@@ -5,7 +5,7 @@ function IntroductionContainer() {
   return (
     <div className="md:w-3/5 sm:w-full mx-auto py-10 relative dark:bg-white intro-container">
       <div className="flex items-center flex-col">
-        <div className="text-xl lg:text-3xl pb-10 font-bold text-[#425937] font-serif">
+        <div className="text-xl lg:text-3xl pb-10 font-bold text-[#126DA6] font-serif">
           <p>CHÚ RỂ & CÔ DÂU</p>
         </div>
       </div>

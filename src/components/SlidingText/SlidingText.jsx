@@ -29,10 +29,10 @@ const SlidingText = () => {
   return (
     <div>
       <div className="flex items-center flex-col">
-        <h2 className="text-md lg:text-xl pt-5 pb-5 text-[#425937]">
+        <h2 className="text-md lg:text-xl pt-5 pb-5 text-[#126DA6]">
           CÙNG ĐẾM NGƯỢC THỜI GIAN
         </h2>
-        <div className="text-3xl lg:text-3xl pb-5 font-bold text-[#425937] font-serif">
+        <div className="text-3xl lg:text-3xl pb-5 font-bold text-[#126DA6] font-serif">
           <p>SAVE THE DATE</p>
         </div>
       </div>
@@ -62,13 +62,13 @@ const SlidingText = () => {
           {dates.map((date, index) => (
             <span
               key={index}
-              className={`slide-text-${index + 1} text-[#425937]  fw-600`}
+              className={`slide-text-${index + 1} text-[#126DA6]  fw-600`}
             >
               {date}
             </span>
           ))}
         </div>
-        <span className={`text-[#425937]  fw-600`}>Tháng 6 Năm 2026</span>
+        <span className={`text-[#126DA6]  fw-600`}>Tháng 6 Năm 2026</span>
       </div>
     </div>
   );

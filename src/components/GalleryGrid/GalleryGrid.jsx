@@ -100,7 +100,7 @@ const GalleryGrid = ({ images }) => {
     <div className="w-full">
        {/* Tiêu đề Album */}
     <div className=" text-center my-0">
-      <h2 className="text-xl lg:text-3xl pb-5 text-[#425937] font-bold font-serif">
+      <h2 className="text-xl lg:text-3xl pb-5 text-[#126DA6] font-bold font-serif">
         ALBUM ẢNH
       </h2>
     </div>
@@ -132,7 +132,7 @@ const GalleryGrid = ({ images }) => {
       {!showAll && (
         <div className="pt-0 hidden md:block text-center">
           <button
-            className={`font-light cursor-pointer text-md italic text-[#425937]`}
+            className={`font-light cursor-pointer text-md italic text-[#126DA6]`}
             onClick={() => setShowAll(true)}
           >
             - Tất cả ảnh -

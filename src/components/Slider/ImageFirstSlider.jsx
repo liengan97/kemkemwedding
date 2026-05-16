@@ -30,7 +30,7 @@ function ImageFirstSlider({ photos = [] }) {
           {/* Tên cặp đôi ở trên */}
           <div className="absolute top-10 w-full flex justify-center px-5">
             <h1
-              className={`text-[#425937] text-lg md:text-4xl lg:text-5xl text-center 
+              className={`text-[#126DA6] text-lg md:text-4xl lg:text-5xl text-center 
                           ${fzPhotograph.className} ${styles.title} ${styles.titleStroke}`}
             >
               Nam Tiến & Ngọc Hân
@@ -41,31 +41,31 @@ function ImageFirstSlider({ photos = [] }) {
             <div className="w-full flex justify-center">
               <div className="flex flex-col items-center w-1/2 space-y-2">
                 {/* Tiêu đề */}
-                <p className="text-xl lg:text-3xl text-[#425937] text-center">
+                <p className="text-xl lg:text-3xl text-[#126DA6] text-center">
                   THƯ MỜI TIỆC CƯỚI
                 </p>
 
-                <div className="w-full border-t-2 border-[#425937]"></div>
+                <div className="w-full border-t-2 border-[#126DA6]"></div>
 
                 <p
-                  className={`md:text-xl lg:text-3xl font-bold text-[#425937] text-center px-1 font-serif ${styles.titleStroke}`}
+                  className={`md:text-xl lg:text-3xl font-bold text-[#126DA6] text-center px-1 font-serif ${styles.titleStroke}`}
                 >
                   CHỦ NHẬT -{" "}
                   <span
-                    className={`text-2xl  lg:text-5xl font-bold text-[#425937] text-center ${styles.titleStroke}`}
+                    className={`text-2xl  lg:text-5xl font-bold text-[#126DA6] text-center ${styles.titleStroke}`}
                   >
                     11:00
                   </span>
                 </p>
 
                 <p
-                  className={`text-3xl md:text-5xl lg:text-5xl font-extrabold text-[#425937] text-center font-serif ${styles.titleStroke}`}
+                  className={`text-3xl md:text-5xl lg:text-5xl font-extrabold text-[#126DA6] text-center font-serif ${styles.titleStroke}`}
                 >
                   14 . 06 . 2026
                 </p>
-                <div className="w-full border-t-2 border-[#425937]"></div>
+                <div className="w-full border-t-2 border-[#126DA6]"></div>
 
-                <p className="md:text-xl lg:text-3xl pt-3 pb-3 text-[#425937] text-center font-serif">
+                <p className="md:text-xl lg:text-3xl pt-3 pb-3 text-[#126DA6] text-center font-serif">
                   TRÂN TRỌNG KÍNH MỜI!
                 </p>
               </div>

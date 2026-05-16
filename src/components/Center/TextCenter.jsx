@@ -1,6 +1,6 @@
 function TextCenter({ className, children }) {
   return (
-    <div className={`text-center text-[#425937] ${className}`}>{children}</div>
+    <div className={`text-center text-[#126DA6] ${className}`}>{children}</div>
   );
 }
 

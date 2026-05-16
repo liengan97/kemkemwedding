@@ -28,7 +28,7 @@ function EventCard({
 }) {
   const isEventPassed = useEventPassed();
   return (
-    <div className="mx-3 py-5 text-[#425937]">
+    <div className="mx-3 py-5 text-[#126DA6]">
       <div className="relative w-full h-full border-1 border-gray-300 border-t-0 rounded-lg text-center bg-white">
 
 
@@ -85,7 +85,7 @@ function EventCard({
           </div>
         </div>
         <div className="pb-5">
-          <p className="text-[#425937] italic text-sm">{alternativeDay}</p>
+          <p className="text-[#126DA6] italic text-sm">{alternativeDay}</p>
         </div>
 
         {
