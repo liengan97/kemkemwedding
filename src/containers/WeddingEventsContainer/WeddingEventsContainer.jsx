@@ -20,7 +20,7 @@ function WeddingEventsContainer() {
         <EventCard
           photoUrl={PEvents.May24}
           title="Nam Tiến & Ngọc Hân"
-          restaurant=""
+          restaurant="BUỔI TIỆC CHUNG VUI CÙNG GIA ĐÌNH DIỄN RA TẠI"
           restaurantName="CẢNG DU THUYỀN MỸ THO"
           restaurantHall="Sảnh SUNNY - Nhỏ 1"
           location="Số 1, Hoàng Sa, Phường Đạo Thạnh, Đồng Tháp"
